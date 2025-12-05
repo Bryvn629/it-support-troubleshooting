@@ -1,0 +1,37 @@
+# Active Directory — Account Locked
+
+## Steps
+1. Verified lockout in ADUC  
+2. Checked Event Viewer logs  
+3. Reset password  
+4. Cleared mapped drive credentials  
+5. Cleared cached logins  
+
+## Resolution
+Password reset + cleared stale sessions → user logged in successfully.
+
+# Password Reset & Sync Issues
+
+## Steps
+1. Reset password in AD  
+2. Forced sync through Azure AD  
+3. Verified MFA status  
+4. Cleared cached credentials  
+
+## Resolution
+Password reset propagated → login successful.
+
+# MFA Not Working
+
+## Symptoms
+- User stuck on MFA screen
+- App never receives prompt
+
+## Diagnostics
+1. Verified phone number  
+2. Checked Authenticator app  
+3. Verified network connection  
+4. Reset MFA registration  
+
+## Resolution
+Removed old device → re-enrolled → MFA functioning normally.
