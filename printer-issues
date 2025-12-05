@@ -1,0 +1,39 @@
+# Printer Offline — Troubleshooting
+
+## Checks
+- Verified power  
+- Verified network cable/WiFi  
+- Pinged printer IP  
+- Restarted spooler:
+
+# code
+- Reinstalled printer  
+
+## Resolution
+Cleared queue + restarted spooler → printer online.
+
+# Stuck Print Queue
+
+## Symptoms
+- Jobs not printing
+- Queue keeps growing
+
+## Steps
+1. Cleared print queue  
+2. Restarted spooler  
+3. Checked printer IP  
+4. Removed/re-added printer  
+
+## Resolution
+Stuck job deleted → printer resumed normal operation.
+
+# Cannot Find Network Printer
+
+## Diagnostics
+1. Checked network connection  
+2. Verified printer IP reachable  
+3. Confirmed printer on same subnet  
+4. Manually added using IP  
+
+## Resolution
+Incorrect driver → installed correct model → printer discovered.
