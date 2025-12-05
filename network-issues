@@ -1,0 +1,53 @@
+# WiFi Not Connecting — Troubleshooting Guide
+
+## Symptoms
+- User cannot connect to WiFi
+- Other devices connect normally
+- "No Internet" warning appears
+
+## Diagnostics
+1. Verified WiFi adapter enabled  
+2. Ran: `ipconfig /all`  
+3. Flushed profiles:  
+   `netsh wlan delete profile name=*`  
+4. Reconnected to network  
+5. Checked DHCP lease  
+6. Tested mobile hotspot  
+
+## Resolution
+Corrupted WiFi profile → deleted → DHCP renewed → device connected successfully.
+
+# Slow Internet — Troubleshooting Steps
+
+## Symptoms
+- Pages loading slowly
+- Video buffering
+- Other users unaffected
+
+## Diagnostics
+1. Speed test  
+2. `ping 8.8.8.8 -t`  
+3. Checked signal strength  
+4. Restarted router/AP  
+5. Verified no background updates  
+
+## Resolution
+Weak WiFi signal → moved closer to access point → speed normalized.
+
+# VPN Not Connecting
+
+## Symptoms
+- User stuck at "Connecting..."
+- MFA looping
+- Can browse internet fine
+
+## Diagnostics
+1. Checked internet connection  
+2. Verified VPN credentials  
+3. Reset adapter  
+4. Cleared DNS:
+
+5. Restarted VPN service  
+
+## Resolution
+VPN client corrupted → reinstall fixed MFA loop.
