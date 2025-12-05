@@ -1,0 +1,40 @@
+# Slow Performance — Windows 10/11
+
+## Checks
+- Task Manager CPU & Memory usage  
+- Startup apps  
+- Windows Update  
+- Disk usage  
+- Malware scan  
+
+## Resolution
+Disabled heavy startup apps  
+Cleared temp files  
+Installed Windows updates  
+Performance restored
+
+# Blue Screen of Death (BSOD) — Initial Analysis
+
+## Symptoms
+- System restarts randomly
+- Blue screen error codes
+
+## Diagnostics
+1. Checked Event Viewer  
+2. Reviewed Stop Code  
+3. Ran Memory Diagnostic  
+4. Updated drivers  
+
+## Resolution
+Faulty driver → updated to latest version → BSOD resolved.
+
+# High CPU Usage — Troubleshooting
+
+## Steps
+1. Identified process in Task Manager  
+2. Ended unnecessary background apps  
+3. Checked for malware  
+4. Restarted affected service  
+
+## Resolution
+Stuck background process → ended & restarted → normal CPU levels restored.
